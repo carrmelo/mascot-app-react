@@ -1,32 +1,25 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 50vh;
+  background-image: url('/static/acasa.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.App-link {
-  color: #61dafb;
+h1,
+h2 {
+  font-family: 'Big Caslon';
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: 5rem;
+  mix-blend-mode: luminosity;
+  color: rgb(255, 179, 102);
+}
+
+img {
+  height: 10vh;
 }
