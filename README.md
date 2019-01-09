@@ -1,3 +1,7 @@
+This project is the continuation of a solo project for Codeworks.
+
+The original repository (Angular+TypeScript) can be found in https://github.com/carrmelo/mascot-app-client
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
